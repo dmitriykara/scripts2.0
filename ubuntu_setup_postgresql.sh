@@ -17,3 +17,10 @@ sudo systemctl start postgresql.service
 # GRANT ALL PRIVILEGES ON SCHEMA public TO <user_name>;
 # GRANT ALL PRIVILEGES ON ALL TABLES IN SCHEMA public TO <user_name>;
 # GRANT USAGE, SELECT ON ALL SEQUENCES IN SCHEMA public to <user_name>;
+
+# Pay attention to:
+# https://www.postgresql.org/docs/current/runtime-config-connection.html 
+# https://stackoverflow.com/questions/11753296/configure-postgresql-to-work-for-only-localhost-or-specified-ip-port
+# https://chartio.com/resources/tutorials/how-to-set-the-default-user-password-in-postgresql/ 
+# https://ubiq.co/database-blog/how-to-list-all-users-in-postgresql/
+# https://stackoverflow.com/questions/4328679/how-to-configure-postgresql-so-it-accepts-loginpassword-auth

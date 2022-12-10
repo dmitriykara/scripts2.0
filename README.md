@@ -33,15 +33,6 @@ A: ssh-copy-id -i ~/.ssh/id_ed25519.pub YOUR_USER_NAME@IP_ADDRESS_OF_THE_SERVER
 
 ## THIRD STEP
 
-Setup `git` to use ssh connections (I believe that it's more useful and secured way that https)
-
-git config --global url.ssh://git@github.com/.insteadOf https://github.com/
-git config --global url.ssh://git@gitlab.com/.insteadOf https://gitlab.com/
-
-If you use BitBucket or other git hosting don't forget to apply config changes to them too
-
-## FOURTH STEP
-
 ```
 git clone https://github.com/dmitriykara/scripts2.0
 chmod +x scripts2.0
@@ -55,7 +46,8 @@ And start executing scripts one by one
 
 If you like the guide please contact me or leave feedback. I will be glad to hear constructive criticism and suggestions
 
-See also:
+###  See also:
 
-https://www.nginx.com/blog/using-free-ssltls-certificates-from-lets-encrypt-with-nginx/ 
-
+#### NGINX:
+https://www.nginx.com/blog/using-free-ssltls-certificates-from-lets-encrypt-with-nginx/
+https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-ubuntu-20-04
