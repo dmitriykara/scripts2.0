@@ -30,5 +30,5 @@ echo \
 sudo apt-get update
 
 # To install the latest version, run:
-sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin
-sudo apt-get install docker-compose
+sudo apt-get -y install docker-ce docker-ce-cli containerd.io docker-compose-plugin
+sudo apt-get -y install docker-compose

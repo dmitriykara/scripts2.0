@@ -35,7 +35,7 @@ A: ssh-copy-id -i ~/.ssh/id_ed25519.pub YOUR_USER_NAME@IP_ADDRESS_OF_THE_SERVER
 
 ```
 git clone https://github.com/dmitriykara/scripts2.0
-chmod +x scripts2.0
+chmod -R +x scripts2.0
 cd scripts2.0
 ```
 
